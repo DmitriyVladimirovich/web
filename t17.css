@@ -1,0 +1,33 @@
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hashtagwrapper
+{
+    display: flex;
+    margin-top: 4px;
+}
+
+.column
+{
+    flex: 33%;
+    max-width: 33%;
+}
+
+.item
+{
+    margin: 4px;
+}
+
+.hashtag
+{
+    padding: 6px;
+    border-radius: 4px;
+    background-color: bisque;
+}
+.hashtag:not(:last-child)
+{
+    margin-right: 4px;
+}
